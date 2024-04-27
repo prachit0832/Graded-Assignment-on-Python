@@ -27,7 +27,7 @@ def check_password_strength(password1):
 if check_password_strength(password):
    print("The password does not meet the crtieria:n\n")
 else:
-   print("The password does not meet the criteria:\n")
+   print("The entered password does not meet the criteria:\n")
    print("- Minimum length:The password should be atleast 8 characters long.\n")
    print("- Contains at least one digit 0-9.n)
    print("- Contains at least one special character !@#$%^&*()\n")
