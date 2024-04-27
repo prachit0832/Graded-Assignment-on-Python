@@ -1,0 +1,39 @@
+Graded-Assignment_Python
+importing regular expressions 
+import re
+
+#define function
+check_password_strength a
+def check_password_strength(password1):
+
+      #check if the password has atleast 8 characters
+      if len (password1)<8:
+      return False
+      #check if the password has atleast one uppercase character
+      elif not re.search(r'[A-Z]'password1):
+      return False
+      #check if the password contains atleast one digit
+      elif not.search(r'[1234567890]',password1):
+      return False
+      #check if the password contains atleast one special character
+      elif not search(r'[!@#$%^&*()]',password1):
+      return False
+      else:
+           return True
+
+#create a variable that can store the input string which will be provided by user password= str (input("Please enter a password:"))
+
+#if-else block to print if the password met the criteria or not.
+if check_password_strength(password):
+   print("The password does not meet the crtieria:n\n")
+else:
+   print("The password does not meet the criteria:\n")
+   print("- Minimum length:The password should be atleast 8 characters long.\n")
+   print("- Contains at least one digit 0-9.n)
+   print("- Contains at least one special character !@#$%^&*()\n")
+
+
+
+
+
+
