@@ -13,7 +13,7 @@ def ini_to_json():
     config_object = configparser.ConfigParser()
 
     # connecting to Mongo DB
-    myclient = MongoClient("mongodb+srv://satyaDevops:Nem0Vm5P03jWfxRJ@clusterone.u4fsgyz.mongodb.net")
+    myclient = MongoClient("mongodb+srv://prachitDevops:Nem0Vm5P03jWfxRJ@clusterone.u4fsgyz.mongodb.net")
     mydb = myclient["config_to_json"]
     Collection = mydb["Data"]
 
