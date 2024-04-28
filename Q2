@@ -17,10 +17,10 @@ while True:
 
         # if block to alert user, when the cpu usage hits threshold
         if cpu_percentage >=80:
-            print("Alert! CPU usage is exceeding threshold!!!!")
+            print("Alert! CPU usage is exceeding threshold, action required. Please contact your administrator!")
         else:
             continue
     # exception handling
     except KeyboardInterrupt:
-        print("The health check program was interrupted manually.")
+        print("The health check program was interrupted.")
         break
